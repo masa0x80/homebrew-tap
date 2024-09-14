@@ -1,0 +1,11 @@
+name: CI
+
+on: [push]
+
+jobs:
+  install:
+    runs-on: macos-latest
+    steps:
+      - run: brew tap masa0x80/tap
+      - run: brew install font-explex
+      - run: brew list --versions | grep font-explex
