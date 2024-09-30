@@ -1,6 +1,6 @@
 cask "font-explex" do
-  version "0.0.2"
-  sha256 "c281aa7ddd08eabdd2197dcbb88e5b0203cf8aa3841d871ecdff7d767455656d"
+  version "0.0.3"
+  sha256 "8467de94fc7911cec897e52d76f73604dfb6332fc70d048e99de29649cb3c889"
 
   url "https://github.com/yuru7/Explex/releases/download/v#{version}/Explex_v#{version}.zip"
   name "Explex"
