@@ -8,4 +8,6 @@ jobs:
     steps:
       - run: brew tap masa0x80/tap
       - run: brew install font-explex
-      - run: brew list --versions | grep font-explex
+      - run: brew list --versions | grep -E "^font-explex [0-9.]*$"
+      - run: brew install font-explex-nf
+      - run: brew list --versions | grep -E "^font-explex-nf [0-9.]*$"
